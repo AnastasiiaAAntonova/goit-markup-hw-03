@@ -4,13 +4,13 @@
 	--accent-color: #2196f3;
 }
 
-p,
 h1,
-h1,
+h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 	margin: 0;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-	width: 1230px;
+	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
@@ -153,7 +153,7 @@ body {
 	background-color: #2f303a;
 	text-align: center;
 	padding-top: 200px;
-	padding-bottom: 280px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
@@ -166,6 +166,7 @@ body {
 	max-width: 696px;
 	color: #ffffff;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -181,10 +182,12 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	padding: 10px 32px;
-	margin-top: 30px;
 }
 
 /* ----------WORK PRINCIPLES---------- */
+.principles-section {
+	padding-bottom: 0;
+}
 
 .principles-list {
 	display: flex;
@@ -215,7 +218,6 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--header-color);
-	margin-top: -94px;
 	margin-bottom: 50px;
 }
 
@@ -230,6 +232,10 @@ body {
 }
 
 /* ----------TEAM---------- */
+.team.section {
+	background-color: #f5f4fa;
+}
+
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -265,7 +271,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--header-color);
-	margin-top: 30px;
+	padding-top: 30px;
 	margin-bottom: 10px;
 }
 .team-text {
@@ -280,6 +286,7 @@ body {
 .page-footer {
 	background-color: #2f303a;
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .footer-logo {
 	font-family: "Raleway";
@@ -291,21 +298,30 @@ body {
 	color: #ffffff;
 }
 
-.footer-logo-link {
+/* .footer-logo-link {
 	padding-top: 60px;
-}
+} */
+
 .footer-logo span {
 	color: var(--accent-color);
 }
 .contacts {
 	font-style: normal;
+	margin-top: 20px;
 }
 
 .contacts-list {
 	width: 231px;
-	padding-top: 20px;
-	padding-bottom: 60px;
 }
+
+.contacts-item {
+	margin-bottom: 9px;
+}
+
+.contacts-item:last-child {
+	margin-bottom: 0;
+}
+
 .contacts-address-link {
 	font-size: 14px;
 	line-height: 1.71;
@@ -360,7 +376,6 @@ body {
 .portfolio-examples-list {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 94px;
 }
 .portfolio-examples-title {
 	font-weight: 700;
@@ -381,7 +396,7 @@ body {
 }
 
 .portfolio-item-content {
-	padding-left: 34px;
+	padding: 20px 24px;
 	border-left: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
