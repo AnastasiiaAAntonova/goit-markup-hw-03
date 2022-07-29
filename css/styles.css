@@ -289,6 +289,7 @@ body {
 	padding-bottom: 60px;
 }
 .footer-logo {
+	display: inline-block;
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -296,18 +297,14 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: #ffffff;
+	margin-bottom: 20px;
 }
-
-/* .footer-logo-link {
-	padding-top: 60px;
-} */
 
 .footer-logo span {
 	color: var(--accent-color);
 }
 .contacts {
 	font-style: normal;
-	margin-top: 20px;
 }
 
 .contacts-list {
@@ -385,14 +382,12 @@ body {
 	min-width: 315px;
 	color: var(--header-color);
 	margin: 0 auto;
-	padding-top: 20px;
+	margin-bottom: 4px;
 }
 .portfolio-examples-text {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	margin-top: 4px;
-	padding-bottom: 20px;
 }
 
 .portfolio-item-content {
